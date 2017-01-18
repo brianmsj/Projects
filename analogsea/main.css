@@ -1,0 +1,25 @@
+
+body {
+  background:#99ddff;
+  font-family: "Roboto", helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  padding-top: 60px;
+}
+body *{
+  box-sizing: border-box;
+}
+.logo{
+ display: block;
+ height: 40px;
+ width: auto;
+ margin:0 auto 30px;
+}
+
+.signup-form{
+  margin: 0 auto;
+  width: 400px;
+  padding: 40px;
+  border-radius: 2px;
+  background: white;
+}
