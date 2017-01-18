@@ -1,6 +1,6 @@
 
 body {
-  background:#99ddff;
+  background:#4499c4;
   font-family: "Roboto", helvetica, sans-serif;
   padding: 0;
   margin: 0;
@@ -22,4 +22,59 @@ body *{
   padding: 40px;
   border-radius: 2px;
   background: white;
+}
+.signup-form legend {
+  text-align: center;
+  font-weight: 300;
+  color: #565656;
+  margin: 0 auto 45px;
+  font-size: 35px;
+  line-height: 38px;
+  letter-spacing: 0;
+}
+input[type="email"],
+input[type="password"],
+button[type="submit"]
+{
+  background: #fcfcfc;
+  border:2px solid #e7e7e7;
+  margin: 20px;
+  padding: 20px;
+  width: 320px;
+  display: block;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align:left;
+  height: auto;
+}
+  input[type='email']:focus,
+  input[type='password']:focus,
+  button[type='submit']:focus {
+
+  border-color: #E7E7E7;
+  box-shadow: none;
+}
+button[type="submit"]{
+
+  color: white;
+  background:#15CD72;
+  border: 0;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
+  height: auto;
+}
+button:hover[type="submit"]
+{
+  background-color: #0CB863
+
+}
+.footer, a{
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: -75px;
+
 }
